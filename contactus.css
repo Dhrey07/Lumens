@@ -1,0 +1,260 @@
+body {
+  /* max-width: 1440px; */
+  margin: auto;
+}
+.top {
+  padding: 10px 30px;
+  background: rgba(255, 255, 255, 0.95);
+  box-shadow: 0px 48px 80px -2px rgba(3, 0, 77, 0.04);
+  width: 1440px;
+  height: 104px;
+  margin: auto;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  /* font-family: "Gilroy"; */
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+
+  color: #1b1c15;
+  display: block;
+  padding: 8px;
+  text-decoration: none;
+}
+html {
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 16px;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+/* HEADER */
+header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-inline: 10%;
+  margin-block: 1.75rem;
+}
+.nav-items ul{
+  display: flex;
+  gap: 39px;
+}
+
+.container1 {
+  /* width: 1440px; */
+  height: 698px;
+  background-repeat: no-repeat;
+  background-image: url("images/contimg.jpg");
+  background-size: cover;
+}
+
+.container1 h1 {
+  /* font-family: "Gilroy"; */
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 79px;
+  text-align: center;
+  padding-top: 18rem;
+  color: #ffffff;
+}
+
+.container2 {
+  background: rgba(0, 0, 0, 0.02);
+  
+  margin: auto;
+  padding-block: 2rem 100px;
+}
+.container2-info{
+  width: 1440px;
+  margin: auto;
+}
+.container3 {
+  padding: 20px;
+}
+textarea {
+  width: 100%;
+  margin-top: 20px;
+  height: 250px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background: rgba(0, 0, 0, 0.04);
+  border-radius: 10px;
+  font-size: 16px;
+  resize: none;
+  outline: none;
+}
+input[type="text"] {
+  width: 100%;
+  height: 62px;
+  padding: 12px 20px;
+  margin: 20px 0;
+  border: 0;
+  box-sizing: border-box;
+  background: rgba(0, 0, 0, 0.04);
+  border-radius: 10px;
+}
+input[type="email"] {
+  width: 100%;
+  height: 62px;
+  padding: 12px 20px;
+  margin: 20px 0;
+  border: 0;
+  box-sizing: border-box;
+  background: rgba(0, 0, 0, 0.04);
+  border-radius: 10px;
+}
+label {
+  margin-top: 30px;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 26px;
+  /* identical to box height */
+
+  color: #303a42;
+}
+
+form{
+    margin-top: 30px;
+}
+
+button{
+    border: 0;
+    color: white;
+    margin-top: 30px;
+    width: 269px;
+    height: 64px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 24px;
+    /* identical to box height, or 114% */
+    
+    text-align: center;
+    
+    color: #FFFFFF;
+padding: 20px 40px;
+background: #0A9BD3;
+border-radius: 5px;
+}
+.container4{
+    position: relative;
+}
+
+.group1{
+    position: absolute;
+    top: -17%;
+    left: 30%;
+}
+
+.container5{
+    /* width: 1440px; */
+    height: 321px;
+    background: #2E368F;
+    padding-bottom: 4rem;
+}
+.container-5-info{
+  max-width: 1440px;
+  margin: auto;
+}
+
+.container5 p{
+    text-align: center;
+    /* font-family: 'Gilroy'; */
+font-style: normal;
+font-weight: 600;
+font-size: 21px;
+line-height: 26px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+
+}
+footer p{
+    /* font-family: 'Gilroy'; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+    align-items: center;
+    
+    color: #D8D8DA;
+}
+
+.container5 img{
+    margin-right: 5px;
+}
+
+.container6{
+    padding: 110px 0 60px;
+}
+
+footer{
+    
+    height: 334px;
+
+bottom: 0px;
+padding: 30px;
+background: #1C1F2A;
+}
+.footer-info{
+  padding-inline: 10%;
+  /* max-width: 1440px; */
+  display: block;
+  margin: auto;
+}
+
+hr{
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+.links{
+    position: relative;
+}
+.link{
+  position: absolute;
+  right: 1%;
+}
+
+.para{
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 8.45rem;
+}
+.container7{
+    margin: 30px 0 140px;
+}
+
+
+a{
+    text-decoration: none;
+}
+#pa{
+    text-align: right;
+    justify-content: end;
+}
